@@ -1,0 +1,12 @@
+@media(min-width:768px){
+    .news-input{
+        width: 50% ;
+    }
+}
+.interior{
+    margin-bottom: 1rem;
+}
+.card-link{
+    text-decoration: none;
+}
+

@@ -1,0 +1,51 @@
+.masthead{
+    margin-top: 4rem;
+    min-height: 80vh;
+    position: relative;
+    background-size: cover;
+}
+
+.masthead .container{
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    position:absolute;  
+    bottom:1rem;
+    left:1rem;
+    width: min-content;
+
+}
+.color-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.interior {
+    margin-bottom: 1rem;
+}
+
+.card-link {
+    text-decoration: none;
+}
+.blog{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.blog img{
+    padding: 3rem;
+}
+.image-container img {
+    height: auto;
+}
+@media (max-width: 990px) {
+    .masthead{
+        min-height: 30vh;
+    }
+}
+@media (max-width: 400px) {
+    .masthead {
+        min-height: 25vh;
+    }
+}
